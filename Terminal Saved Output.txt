@@ -1,0 +1,68 @@
+Last login: Wed Sep  6 22:08:32 on ttys000
+omersatik@Omers-Air ~ % cd desktop/git3
+omersatik@Omers-Air git3 % cd second-repo
+omersatik@Omers-Air second-repo % nano index.html
+omersatik@Omers-Air second-repo % git commit -am"lokaldee değişiklik yapıldı"
+[main 62cdd13] lokaldee değişiklik yapıldı
+ Committer: Omer Satik <omersatik@Omers-Air.bbrouter>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+omersatik@Omers-Air second-repo % git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/osatik/second-repo.git
+   14e6cb2..62cdd13  main -> main
+omersatik@Omers-Air second-repo % cd ..
+omersatik@Omers-Air git3 % git clone https://github.com/osatik/deneme.git
+Cloning into 'deneme'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+omersatik@Omers-Air git3 % touch deneme.py 
+omersatik@Omers-Air git3 % git add .
+fatal: not a git repository (or any of the parent directories): .git
+omersatik@Omers-Air git3 % rm -rf .git                                   
+omersatik@Omers-Air git3 % cd deneme
+omersatik@Omers-Air deneme % touch deneme.py
+omersatik@Omers-Air deneme % nano deneme.py
+
+  UW PICO 5.09                    File: deneme.py                     Modified  
+
+merhaba deneme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
